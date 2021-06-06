@@ -1,12 +1,18 @@
 <template>
   <header>
     <div id="home" class="mt-5">
-      <v-parallax src="https://cdn.vuetifyjs.com/images/parallax/material.jpg">
+      <v-parallax src="./../assets/IMG-20210606-WA0013.jpg">
         <v-row align="center" justify="center">
           <v-col class="text-center">
             <div>
-              <p class="title-banner">Bienvenue chez Maison Pia !</p>
-              <p class="subtitle-banner">Colocation Senior</p>
+              <p class="title-banner">
+                <span class="subtitle-banner"> COLOCATION SENIOR </span>
+                <span
+                  class="col-8"
+                  style="background-color: rgba(241, 148, 138, 0.9)"
+                  >Bienvenue chez Maison Pia
+                </span>
+              </p>
             </div>
           </v-col>
         </v-row>
@@ -30,13 +36,17 @@ export default {
   margin-top: 10%;
   font-size: 5rem;
   text-align: center;
-}
-
-.title-banner:hover {
-  color: rgb(255, 251, 0);
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .subtitle-banner {
-  font-size: 2.3rem;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+  color: whitesmoke;
+  font-size: 2.6rem;
+  font-weight: normal;
 }
 </style>
