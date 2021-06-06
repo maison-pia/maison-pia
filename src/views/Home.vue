@@ -18,7 +18,10 @@
         </v-row>
       </v-parallax>
       <div class="container">
-        <Coordonnees />
+        <div class="part1">
+          <Coordonnees />
+          <Intro />
+        </div>
       </div>
     </div>
   </header>
@@ -26,9 +29,10 @@
 
 <script>
 import Coordonnees from "../components/Coordonnees.vue";
+import Intro from "../components/Intro.vue";
 export default {
   name: "Home",
-  components: { Coordonnees },
+  components: { Coordonnees, Intro },
 };
 </script>
 
@@ -47,8 +51,13 @@ export default {
   font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
     sans-serif;
   color: white;
-  font-weight: normal;
   margin-top: 10%;
+}
+
+.part1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 @media (min-width: 1281px) {
@@ -86,11 +95,11 @@ export default {
 @media (min-width: 200px) and (max-width: 480px) {
   .title-banner {
     margin-top: 10%;
-    font-size: 3rem;
+    font-size: 2.6rem;
   }
 
   .subtitle-banner {
-    font-size: 2.6rem;
+    font-size: 2rem;
   }
 }
 </style>
