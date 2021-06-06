@@ -86,7 +86,7 @@ export default {
 @media (min-width: 200px) and (max-width: 480px) {
   .title-banner {
     margin-top: 10%;
-    font-size: 5rem;
+    font-size: 3rem;
   }
 
   .subtitle-banner {
