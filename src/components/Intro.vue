@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-5 ml-4 intro col-lg-6 col-sm-12 col-xs-12">
+  <div class="intro col-lg-6 col-sm-12 col-xs-12">
     <img src="../assets/logo.jpg" style="width: 50%" alt="logo" />
     <div class="sentences mt-5">
       <p>Rompre avec l'isolement</p>

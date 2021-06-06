@@ -9,9 +9,8 @@
                 <span
                   class="col-8"
                   style="background-color: rgba(241, 148, 138, 0.9)"
-                  >Bienvenue chez Maison Pia
+                  >Maison Pia : Colocation Senior
                 </span>
-                <span class="subtitle-banner"> COLOCATION SENIOR </span>
               </p>
             </div>
           </v-col>
@@ -47,13 +46,6 @@ export default {
   align-items: center;
 }
 
-.subtitle-banner {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
-    sans-serif;
-  color: white;
-  margin-top: 10%;
-}
-
 .part1 {
   display: flex;
   justify-content: space-around;
@@ -66,20 +58,12 @@ export default {
     margin-top: 10%;
     font-size: 4rem;
   }
-
-  .subtitle-banner {
-    font-size: 2.6rem;
-  }
 }
 
 @media (min-width: 1000px) and (max-width: 1280px) {
   .title-banner {
     margin-top: 10%;
     font-size: 3.6rem;
-  }
-
-  .subtitle-banner {
-    font-size: 2.6rem;
   }
 }
 
@@ -88,19 +72,11 @@ export default {
     margin-top: 10%;
     font-size: 3.2rem;
   }
-
-  .subtitle-banner {
-    font-size: 2.6rem;
-  }
 }
 @media (min-width: 200px) and (max-width: 480px) {
   .title-banner {
     margin-top: 10%;
     font-size: 2.6rem;
-  }
-
-  .subtitle-banner {
-    font-size: 2rem;
   }
 }
 </style>
