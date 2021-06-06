@@ -59,22 +59,22 @@ export default {
 
 @media (min-width: 1281px) {
   .legende1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 @media (min-width: 1000px) and (max-width: 1280px) {
   .legende1 {
-    font-size: 1.9rem;
+    font-size: 1.6rem;
   }
 }
 @media (min-width: 481px) and (max-width: 999px) {
   .legende1 {
-    font-size: 1.9rem;
+    font-size: 1.3rem;
   }
 }
 @media (min-width: 200px) and (max-width: 480px) {
   .legende1 {
-    font-size: 2rem;
+    font-size: 1.1rem;
   }
 }
 </style>
