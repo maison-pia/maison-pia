@@ -1,10 +1,10 @@
 <template>
   <div class="intro col-lg-6 col-sm-12 col-xs-12">
-    <img src="../assets/logo.jpg" style="width: 50%" alt="logo" />
+    <img src="../assets/logo.jpg" style="width: 60%" alt="logo" />
     <div class="sentences mt-5">
       <p>Rompre avec l'isolement</p>
-      <p class="ml-4">Garder son indépendance</p>
-      <p class="ml-4">Préserver son autonomie</p>
+      <p>Garder son indépendance</p>
+      <p>Préserver son autonomie</p>
     </div>
   </div>
 </template>
@@ -31,7 +31,7 @@ export default {
 .sentences {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 @media (min-width: 1281px) {

@@ -67,7 +67,6 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&display=swap");
 .photo1 {
   display: flex;
   justify-content: space-around;
@@ -79,9 +78,6 @@ export default {
 }
 
 @media (min-width: 1281px) {
-  .legende1 {
-    font-size: 1.8rem;
-  }
 }
 @media (min-width: 1000px) and (max-width: 1280px) {
 }

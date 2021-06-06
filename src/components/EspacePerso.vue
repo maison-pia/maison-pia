@@ -42,11 +42,15 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 .photo1 {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+.legende1 {
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
 }
 
 .espace {
@@ -55,13 +59,22 @@ export default {
 
 @media (min-width: 1281px) {
   .legende1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 }
 @media (min-width: 1000px) and (max-width: 1280px) {
+  .legende1 {
+    font-size: 1.9rem;
+  }
 }
 @media (min-width: 481px) and (max-width: 999px) {
+  .legende1 {
+    font-size: 1.9rem;
+  }
 }
 @media (min-width: 200px) and (max-width: 480px) {
+  .legende1 {
+    font-size: 2rem;
+  }
 }
 </style>

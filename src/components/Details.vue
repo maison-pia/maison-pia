@@ -1,6 +1,6 @@
 <template>
   <div class="mt-5">
-    <p class="detail">
+    <p class="legende1">
       Maison neuve sur un terrain de 840m², conçue pour accueillir 4
       colocataires séniors. Elle est située à Verdalle dans un lotissement à
       200m de la Maison de Santé du Terrefort et vous trouverez également
@@ -20,9 +20,10 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 .detail {
   text-align: justify;
+  font-family: "Roboto", sans-serif;
 }
 
 @media (min-width: 1281px) {

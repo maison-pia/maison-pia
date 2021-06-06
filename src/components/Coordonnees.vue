@@ -47,6 +47,7 @@ export default {
   list-style-type: none;
   border: thick double rgb(241, 148, 138);
   padding: 10px;
+  font-family: "Roboto", sans-serif;
 }
 
 @media (min-width: 1281px) {
