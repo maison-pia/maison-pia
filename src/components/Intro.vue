@@ -1,10 +1,10 @@
 <template>
-  <div class="mt-5 ml-4 col-5 intro">
+  <div class="mt-5 ml-4 intro col-lg-6 col-sm-12 col-xs-12">
     <img src="../assets/logo.jpg" style="width: 50%" alt="logo" />
     <div class="sentences mt-5">
       <p>Rompre avec l'isolement</p>
-      <p>Garder son indépendance</p>
-      <p>Préserver son autonomie</p>
+      <p class="ml-4">Garder son indépendance</p>
+      <p class="ml-4">Préserver son autonomie</p>
     </div>
   </div>
 </template>
@@ -26,6 +26,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
 }
 .sentences {
   display: flex;
