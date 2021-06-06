@@ -45,6 +45,8 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&display=swap");
 .data {
   list-style-type: none;
+  border: thick double rgb(241, 148, 138);
+  padding: 10px;
 }
 
 @media (min-width: 1281px) {

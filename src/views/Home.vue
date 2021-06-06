@@ -1,7 +1,7 @@
 <template>
   <header>
     <div id="home" class="mt-5">
-      <v-parallax src="./../assets/banner.webp">
+      <v-parallax src="./../assets/verdalle.jpeg">
         <v-row align="center" justify="center">
           <v-col class="text-center">
             <div>
@@ -20,6 +20,9 @@
         <div class="part1">
           <Coordonnees />
           <Intro />
+          <Details />
+          <EspaceCommun />
+          <EspacePerso />
         </div>
       </div>
     </div>
@@ -29,9 +32,12 @@
 <script>
 import Coordonnees from "../components/Coordonnees.vue";
 import Intro from "../components/Intro.vue";
+import EspaceCommun from "../components/EspaceCommun.vue";
+import EspacePerso from "../components/EspacePerso.vue";
+import Details from "../components/Details.vue";
 export default {
   name: "Home",
-  components: { Coordonnees, Intro },
+  components: { Coordonnees, Intro, EspaceCommun, EspacePerso, Details },
 };
 </script>
 
