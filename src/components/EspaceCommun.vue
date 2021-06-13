@@ -1,6 +1,6 @@
 <template>
   <div class="espace">
-    <h1>L'ESPACE COMMUN</h1>
+    <h1 class="subtitle-section">&nbsp; L'ESPACE &nbsp; COMMUN</h1>
     <div class="photo1 mt-5">
       <p class="legende1 mt-3 col-12">
         La pièce de vie 50m² avec une vue imprenable sur la Montagne noire

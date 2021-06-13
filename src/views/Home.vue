@@ -23,6 +23,7 @@
           <Details />
           <EspaceCommun />
           <EspacePerso />
+          <Prix />
         </div>
       </div>
     </div>
@@ -35,9 +36,10 @@ import Intro from "../components/Intro.vue";
 import EspaceCommun from "../components/EspaceCommun.vue";
 import EspacePerso from "../components/EspacePerso.vue";
 import Details from "../components/Details.vue";
+import Prix from "../components/Prix.vue";
 export default {
   name: "Home",
-  components: { Coordonnees, Intro, EspaceCommun, EspacePerso, Details },
+  components: { Coordonnees, Intro, EspaceCommun, EspacePerso, Details, Prix },
 };
 </script>
 

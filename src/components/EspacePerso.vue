@@ -1,6 +1,8 @@
 <template>
   <div class="espace">
-    <h1>VOTRE ESPACE PERSONNEL</h1>
+    <h1 class="subtitle-section">
+      &nbsp; VOTRE &nbsp; ESPACE &nbsp; PERSONNEL
+    </h1>
     <div class="photo1 mt-5">
       <p class="legende1 mt-3 col-12">
         Chambre de 13,70m² avec placards. Prises TV et internet. Salle de bain

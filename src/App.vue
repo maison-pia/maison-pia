@@ -17,10 +17,6 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
 * {
   font-family: "Crete Round", serif;
-}
-
-h1 {
-  background-color: rgba(241, 148, 138, 0.9);
-  color: whitesmoke;
+  color: rgb(4, 4, 87);
 }
 </style>
