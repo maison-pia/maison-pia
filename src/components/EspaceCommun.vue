@@ -44,6 +44,11 @@
         src="./../assets/potager.jpg"
         alt="espacecommun3"
       />
+      <img
+        class="col-xl-6 col-lg-6 col-md-12 col-sm-12"
+        src="./../assets/potager2.jpg"
+        alt="espacecommun3"
+      />
     </div>
   </div>
 </template>

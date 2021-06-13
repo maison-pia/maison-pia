@@ -9,7 +9,7 @@
                 <span
                   class="col-8"
                   style="background-color: rgba(241, 148, 138, 0.9)"
-                  >Maison Pia : Colocation Senior
+                  ><span class="maison">Maison PIA</span> : Colocation Senior
                 </span>
               </p>
             </div>
@@ -43,6 +43,11 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+.maison {
+  font-family: "Dancing Script", cursive;
+}
+
 .title-banner {
   font-family: "Bodoni Moda", serif !important;
   text-align: center;

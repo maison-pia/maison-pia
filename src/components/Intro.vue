@@ -2,9 +2,9 @@
   <div class="intro col-lg-6 col-sm-12 col-xs-12">
     <img src="../assets/logo.jpg" style="width: 60%" alt="logo" />
     <div class="sentences mt-5">
-      <p>Rompre avec l'isolement</p>
-      <p>Garder son indépendance</p>
-      <p>Préserver son autonomie</p>
+      <p class="subtitle-intro">Rompre avec l'isolement</p>
+      <p class="subtitle-intro">Garder son indépendance</p>
+      <p class="subtitle-intro">Préserver son autonomie</p>
     </div>
   </div>
 </template>
@@ -28,6 +28,11 @@ export default {
   align-items: center;
   justify-content: space-around;
 }
+
+.subtitle-intro {
+  font-style: italic;
+}
+
 .sentences {
   display: flex;
   flex-wrap: wrap;
