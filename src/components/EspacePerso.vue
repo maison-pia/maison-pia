@@ -5,19 +5,14 @@
     </h1>
     <div class="photo1 mt-5">
       <p class="legende1 mt-3 col-12">
-        Chambre de 13,70m² avec placards. Prises TV et internet. Salle de bain
+        Chambre de 13,70m² entièrement meublée avec placards. Prises TV et internet. Salle de bain
         (5m²) entièrement équipé, avec W.C. Sortie individuelle donnant sur une
         terrasse privée.
       </p>
       <img
         class="col-xl-6 col-lg-6 col-md-12 col-sm-12"
-        src="./../assets/chambre.jpg"
+        src="./../assets/chambre-meuble.jpg"
         alt="espacecommun1"
-      />
-      <img
-        class="col-xl-6 col-lg-6 col-md-12 col-sm-12"
-        src="./../assets/sbd.jpg"
-        alt="espacecommun2"
       />
       <img
         class="col-xl-6 col-lg-6 col-md-12 col-sm-12"
@@ -28,6 +23,11 @@
         class="col-xl-6 col-lg-6 col-md-12 col-sm-12"
         src="./../assets/terrasseperso.jpg"
         alt="espacecommun1"
+      />
+      <img
+        class="col-xl-6 col-lg-6 col-md-12 col-sm-12"
+        src="./../assets/sbd.jpg"
+        alt="espacecommun2"
       />
     </div>
   </div>

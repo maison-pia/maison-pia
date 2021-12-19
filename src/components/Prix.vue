@@ -5,10 +5,13 @@
     </h1>
     <div class="photo1 mt-5">
       <p class="legende1 mt-3 col-12">
-        350€/chambre + 50€/personne de provisions sur charges (comprenant eau,
-        électricité, climatisation, chauffage et internet)
+        450€/chambre meublée + 50€/personne de provisions sur charges (comprenant eau,
+        électricité, climatisation, chauffage et internet). 
       </p>
     </div>
+    <p class="legende1 mt-3 col-12">
+        Nous vous proposons une semaine d'essai à 150€.
+      </p>
   </div>
 </template>
 
